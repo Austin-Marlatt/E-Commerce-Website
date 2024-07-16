@@ -11,7 +11,7 @@ function Blogging() {
 
   return (
     <div className="review-carousel">
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel interval={null} activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img src="/src/public/images/insta-item1.jpg"/>
         <Carousel.Caption>

@@ -4,7 +4,7 @@ import ProductAccordianTemplate from '../Accordian/Accordian.Products';
 
 function CarouselTheProducts() {
   return (
-    <Carousel>
+    <Carousel interval={null} >
       <Carousel.Item>
        <img src='/src/public/images/product-item1.jpg' />
         <Carousel.Caption>

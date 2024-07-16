@@ -11,12 +11,12 @@ function SalesAccordianTemplate(props) {
         <p></p>
           {props.discount} 
           <p></p>
-          {props.newPrice}
+
         </Accordion.Body>
       </Accordion.Item>
       
     </Accordion>
   );
-};//{props.newPrice} outside of accordion
+};
 
 export default SalesAccordianTemplate;
