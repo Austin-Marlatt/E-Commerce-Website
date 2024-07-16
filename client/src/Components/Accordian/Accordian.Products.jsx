@@ -13,7 +13,7 @@ function ProductAccordianTemplate(props) {
       </Accordion.Item>
       
     </Accordion>
-  );//add to line 11 {props.price}?
+  );
 };
 
 export default ProductAccordianTemplate;

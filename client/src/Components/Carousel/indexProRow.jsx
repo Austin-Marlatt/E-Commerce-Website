@@ -5,7 +5,7 @@ import ProductAccordianTemplate from "../Accordian/Accordian.Products";
 
 function WatchesRow(){
     return(
-        <div >
+        <div>
         <section id="smart-watches" className="product-store padding-large position-relative">
       <div className="container">
         <div className="watches-row col-12"> {/** CSS should start here. Can't get row */}

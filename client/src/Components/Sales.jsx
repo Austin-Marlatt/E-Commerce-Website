@@ -35,6 +35,7 @@ function Sales() {
                 <div className="product-card position-relative">
                   <div className="image-holder col-md-6">
                     <img src="/src/public/images/insta-item2.jpg" alt="product-item" className="img-fluid"/>
+                    <SalesAccordianTemplate header={"Smart Watch"} oldPrice={"$6,000"} discount={"90% off!"} newPrice={"Now only $600!"} />
                     <p className="item-price text-primary">$6,000</p>{/**needs slash */}
                     <p>90% off!</p>
                     <p className="item-price text-primary">Now only $600!</p>

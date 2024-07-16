@@ -17,6 +17,6 @@ function SalesAccordianTemplate(props) {
       
     </Accordion>
   );
-};
+};//{props.newPrice} outside of accordion
 
 export default SalesAccordianTemplate;
