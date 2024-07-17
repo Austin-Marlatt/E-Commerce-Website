@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-//too complex? 
+//too complex: replace with a dropdown to select string value? 
 function StarRating() {
     const [rate, setRate] = useState(null);
     const [hovering, setHovering] = useState(null);

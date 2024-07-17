@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import ProductAccordianTemplate from '../Accordian/Accordian.Products';
 
-function CarouselTheProducts() {
+function CarouselTheProducts() { //insert map function to the carousels 
   return (
     <Carousel interval={null} >
       <Carousel.Item>

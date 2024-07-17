@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
+import { useQuery, useMutation } from '@apollo/client';
+import { useParams, Link } from 'react-router-dom'; 
+//import {CREATE_REVIEW} from "../utils/mutations";
 
 function EntryReview() {
+    let { userID } = useParams();
+
     const [user, setUser] = useState(""); //users only can leave reviews
     const [reviewer, setReviewer] = useState("");
     const [feedback, setFeedback] = useState("");

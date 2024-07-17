@@ -3,7 +3,7 @@ import "../../public/CSS/style.css"
 
 import ProductAccordianTemplate from "../Accordian/Accordian.Products";
 
-function WatchesRow(){
+function WatchesRow(){ //why is there overlap between image and button? 
     return(
         <div>
         <section id="smart-watches" className="product-store padding-large position-relative">

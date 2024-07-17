@@ -1,4 +1,5 @@
 import Accordion from 'react-bootstrap/Accordion';
+import AddProductReview from '../Modal';
 
 function SalesAccordianTemplate(props) {
   return (
@@ -14,7 +15,9 @@ function SalesAccordianTemplate(props) {
 
         </Accordion.Body>
       </Accordion.Item>
-      
+      <Accordion.Item>
+        <AddProductReview/>
+      </Accordion.Item>
     </Accordion>
   );
 };
