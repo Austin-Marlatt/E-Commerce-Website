@@ -24,7 +24,6 @@ function Sales() {
                   <div className="cart-concern position-absolute">
                     <div className="cart-button d-flex">
                     <button>Add to Cart</button>
-                    <DropdownProductReview/>
                     <p></p>
                     </div>
                   </div>
@@ -45,7 +44,6 @@ function Sales() {
                   <div className="cart-concern position-absolute">
                     <div className="cart-button d-flex">
                     <button>Add to Cart</button>
-                    <DropdownProductReview/>
                     <p></p>
                     </div>
                   </div>
@@ -66,7 +64,6 @@ function Sales() {
                   <div className="cart-concern position-absolute">
                     <div className="cart-button d-flex">
                     <button>Add to Cart</button>
-                    <DropdownProductReview/>
                     <p></p>
                     </div>
                   </div>
@@ -105,7 +102,6 @@ function Sales() {
                   <div className="cart-concern position-absolute">
                     <div className="cart-button d-flex">
                     <button>Add to Cart</button>
-                    <DropdownProductReview/>
                     </div>
                   </div>
                   <p></p>

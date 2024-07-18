@@ -1,5 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
-import AddProductReview from '../Modal';
+
+import DropdownProductReview from '../Accord.Modal';
 
 function SalesAccordianTemplate(props) {
   return (
@@ -16,10 +17,11 @@ function SalesAccordianTemplate(props) {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item>
-        <AddProductReview/>
+        <DropdownProductReview/>
       </Accordion.Item>
     </Accordion>
   );
 };
 
 export default SalesAccordianTemplate;
+//exported to Sales
