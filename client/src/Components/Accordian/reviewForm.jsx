@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Nav, NavDropdown, Form, Button, Alert } from "react-bootstrap";
 
-function ReviewFormat() {
+function ReviewForm() {
     const [userFormationData, setUserFormationData] = useState({review:""});
     const [validation] = useState(false);
     const [displayAlert, setDisplayAlert] = useState(false);
@@ -42,7 +42,7 @@ function ReviewFormat() {
             Please input your review on this product. 
         </Form.Label> 
          <Form.Control
-        type="input"
+        type="text"
         placeholder="How should I put it?"
         name="review"
         onChange={handleFeedbackChange}
@@ -66,4 +66,4 @@ function ReviewFormat() {
 </>
     );
 };
-export default ReviewFormat;
+export default ReviewForm;

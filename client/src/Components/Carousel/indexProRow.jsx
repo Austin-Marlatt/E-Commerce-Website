@@ -1,9 +1,11 @@
 import React from "react";
 import "../../public/CSS/style.css"
-
+import DropdownProductReview from "../Accord.Modal";
+import ReviewForm from "../Accordian/reviewForm";//nothing wrong here
 import ProductAccordianTemplate from "../Accordian/Accordian.Products";
 
-function WatchesRow(){ //why is there overlap between image and button? 
+
+function WatchesRow(){ 
     return(
         <div>
         <section id="smart-watches" className="product-store padding-large position-relative">
@@ -30,6 +32,8 @@ function WatchesRow(){ //why is there overlap between image and button?
                   <div className="card-detail d-flex justify-content-between align-items-baseline pt-3">
                     <h3 className="card-title text-uppercase">
                       <ProductAccordianTemplate header={"pink watch"} description={"pink and white and petite"} />
+                      
+
                     </h3>
                     <span className="item-price text-primary">$870</span>
                   </div>

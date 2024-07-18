@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import "../Components/Carousel/Carousel.css"
+import "../Carousel/Carousel.css"
 
 function Blogging() {
   const [index, setIndex] = useState(0);

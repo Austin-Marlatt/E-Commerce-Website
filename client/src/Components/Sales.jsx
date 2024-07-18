@@ -1,5 +1,6 @@
 import React from "react";
 import SalesAccordianTemplate from "./Accordian/Accordion.Sales";
+import DropdownProductReview from "./Accord.Modal";
 
 function Sales() {
     return (
@@ -8,6 +9,7 @@ function Sales() {
       <div className="row">
         <div className="col-md-6"> {/** CSS should start here. Can't get row */}
         <h2 className="display-7 text-dark text-uppercase">See our sales!</h2>
+          <div> </div> 
           <div className="display-header d-flex justify-content-between pb-3">
           </div>
           <div className="swiper product-watch-swiper">
@@ -22,6 +24,7 @@ function Sales() {
                   <div className="cart-concern position-absolute">
                     <div className="cart-button d-flex">
                     <button>Add to Cart</button>
+                    <DropdownProductReview/>
                     <p></p>
                     </div>
                   </div>
@@ -42,6 +45,7 @@ function Sales() {
                   <div className="cart-concern position-absolute">
                     <div className="cart-button d-flex">
                     <button>Add to Cart</button>
+                    <DropdownProductReview/>
                     <p></p>
                     </div>
                   </div>
@@ -62,6 +66,7 @@ function Sales() {
                   <div className="cart-concern position-absolute">
                     <div className="cart-button d-flex">
                     <button>Add to Cart</button>
+                    <DropdownProductReview/>
                     <p></p>
                     </div>
                   </div>
@@ -100,6 +105,7 @@ function Sales() {
                   <div className="cart-concern position-absolute">
                     <div className="cart-button d-flex">
                     <button>Add to Cart</button>
+                    <DropdownProductReview/>
                     </div>
                   </div>
                   <p></p>
@@ -115,7 +121,6 @@ function Sales() {
           </div>
         </div>
       </div> 
-      
     </section>
         </div>
     )
