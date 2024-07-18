@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
-import DropdownProductReview from '../Accord.Modal';
 import ProductAccordianTemplate from '../Accordian/Accordian.Products';
+import ProductItemization from '../../Pages/Process.Products.jsx/DynamicProducts';
 
 function CarouselTheProducts() { //insert map function to the carousels 
   return (

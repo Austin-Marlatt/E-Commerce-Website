@@ -18,7 +18,7 @@ function ProductItemization() {
         shippingAddress,
         productsForSale
     }=data.current;
-    
+
     return (
         <div>
             <h1>Welcome, {username}</h1>

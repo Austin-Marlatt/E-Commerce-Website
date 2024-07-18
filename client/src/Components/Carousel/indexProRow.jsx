@@ -3,7 +3,13 @@ import "../../public/CSS/style.css"
 import DropdownProductReview from "../Accord.Modal";
 import ReviewForm from "../Accordian/reviewForm";//nothing wrong here
 import ProductAccordianTemplate from "../Accordian/Accordian.Products";
-
+import ProductItemization from '../../Pages/Process.Products.jsx/DynamicProducts'; //Error: Response not successful: Received status code 500
+/**
+ * [1] AggregateError [ECONNREFUSED]: 
+[1]     at internalConnectMultiple (node:net:1116:18)
+[1]     at internalConnectMultiple (node:net:1184:5)
+[1]     at afterConnectMultiple (node:net:1683:7)
+ */
 
 function WatchesRow(){ 
     return(
@@ -14,6 +20,7 @@ function WatchesRow(){
           <div className="display-header d-flex justify-content-between pb-3">
             <h2 className="display-7 text-dark text-uppercase">Smart Watches</h2>
             <div className="btn-right">
+                <ProductItemization/> {/** */}
             </div>
           </div>
           <div className="swiper product-watch-swiper">
