@@ -5,10 +5,11 @@ import WatchesRow from "./Carousel/indexProRow";
 
 function Products() {
     return (
-    <div className="products" >
+    <div className="carousel-products" >
+        <p className="carousel-title">See our phones that we're selling!</p>
         <CarouselTheProducts/>
-        <p></p>
-        <WatchesRow/>
+        
+        
     </div>
     )
 };
